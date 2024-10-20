@@ -1,0 +1,7 @@
+CREATE TABLE enquiries(
+    enquiries_id VARCHAR(10) PRIMARY KEY,
+    enquiriesQuestion VARCHAR(250) NOT NULL,
+    datetime_created DATE,
+    sender_email VARCHAR(200) NOT NULL,
+    sender_whatsapp VARCHAR(200) NOT NULL
+)

@@ -1,0 +1,6 @@
+CREATE TABLE holidays(
+    holidays_id VARCHAR(10) PRIMARY KEY,
+    holiday_name VARCHAR(50) NOT NULL,
+    holiday_date date NOT NULL,
+    holiday_type VARCHAR(50) NOT NULL,
+)
