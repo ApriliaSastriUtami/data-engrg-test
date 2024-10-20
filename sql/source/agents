@@ -1,0 +1,6 @@
+CREATE TABLE agents(
+    agents_id VARCHAR(10) PRIMARY KEY,
+    agentsName VARCHAR(50) NOT NULL,
+    agentsAddress VARCHAR(200) NOT NULL,
+    agentsEmail VARCHAR(50) NOT NULL
+)

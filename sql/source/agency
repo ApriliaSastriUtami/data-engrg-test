@@ -1,0 +1,5 @@
+CREATE TABLE agency(
+    agency_id VARCHAR(10) PRIMARY KEY,
+    agencyName VARCHAR(50) NOT NULL,
+    agencyAddress VARCHAR(200) NOT NULL
+)
