@@ -1,0 +1,7 @@
+CREATE TABLE portal_hits(
+    portal_hits_id VARCHAR(10) PRIMARY KEY,
+    portal_hits_page VARCHAR(30) NOT NULL,
+    hits_type VARCHAR(50) NOT NULL,
+    no_of_hits int NOT NULL,
+    datetime_created DATETIME NOT NULL
+)

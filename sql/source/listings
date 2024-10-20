@@ -1,0 +1,13 @@
+CREATE TABLE listings(
+    listing_id VARCHAR(10) PRIMARY KEY,
+    property_type VARCHAR(100) NOT NULL,
+    price VARCHAR(100) NOT NULL,
+    bedrooms int NOT NULL,
+    bathrooms int NOT NULL,
+    landSize float NOT NULL,
+    garages int NOT NULL,
+    location_id VARCHAR(10) REFERENCES location,
+    listing_photos_id VARCHAR(10) REFERENCES listing_photos,
+    portal_hits_id VARCHAR(10) REFERENCES portal_hits,
+    listing_photos_id VARCHAR(10) REFERENCES listing_photos
+)

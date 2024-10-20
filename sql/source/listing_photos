@@ -1,0 +1,5 @@
+CREATE TABLE listing_photos(
+    listing_photos_id VARCHAR(10) PRIMARY KEY,
+    listing_photos_quality VARCHAR(50) NOT NULL,
+    picture BLOB NOT NULL
+)

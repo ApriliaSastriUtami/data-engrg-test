@@ -3,4 +3,5 @@ CREATE TABLE holidays(
     holiday_name VARCHAR(50) NOT NULL,
     holiday_date date NOT NULL,
     holiday_type VARCHAR(50) NOT NULL,
+    holiday_description VARCHAR(250) NOT NULL
 )
